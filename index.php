@@ -71,6 +71,7 @@ setcookie($cookie_name, $cookie_value, time() + (86400 * 30), "/"); // 86400 = 1
 		</div>
 
 	<!-- Please check out this cookie. The if statement isnt working for me -->	
+	
 <?php 
 if(!isset($_COOKIE[$cookie_name])) { ?>
  <center>
